@@ -30,5 +30,13 @@ class MainActivity : AppCompatActivity() {
         val runBlockingLabs = RunBlockingLabs()
         runBlockingLabs.example1()
         runBlockingLabs.example2()
+
+        val coroutineJobs = CoroutineJobs()
+//        coroutineJobs.example1()
+//        coroutineJobs.example2()
+//        coroutineJobs.example3()
+//        coroutineJobs.example4()
+        coroutineJobs.example5()
+
     }
 }
