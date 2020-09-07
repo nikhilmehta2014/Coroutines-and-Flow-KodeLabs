@@ -22,5 +22,9 @@ class MainActivity : AppCompatActivity() {
         delaySuspendLabs.example1()
         delaySuspendLabs.example2()
         delaySuspendLabs.example3()
+
+        val coroutineContextLabs = CoroutineContextLabs()
+        coroutineContextLabs.example1()
+        coroutineContextLabs.example2()
     }
 }
