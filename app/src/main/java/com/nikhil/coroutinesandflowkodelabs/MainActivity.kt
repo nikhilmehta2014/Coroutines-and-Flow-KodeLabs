@@ -9,6 +9,7 @@ import kotlinx.coroutines.launch
 import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -16,5 +17,10 @@ class MainActivity : AppCompatActivity() {
         val globalScopeLabs = GlobalScopeLabs()
         globalScopeLabs.example1()
         globalScopeLabs.example2()
+
+        val delaySuspendLabs = DelaySuspendLabs()
+        delaySuspendLabs.example1()
+        delaySuspendLabs.example2()
+        delaySuspendLabs.example3()
     }
 }
