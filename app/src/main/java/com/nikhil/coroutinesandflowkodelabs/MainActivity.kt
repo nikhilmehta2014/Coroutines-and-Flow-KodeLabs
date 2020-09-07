@@ -26,5 +26,9 @@ class MainActivity : AppCompatActivity() {
         val coroutineContextLabs = CoroutineContextLabs()
         coroutineContextLabs.example1()
         coroutineContextLabs.example2()
+
+        val runBlockingLabs = RunBlockingLabs()
+        runBlockingLabs.example1()
+        runBlockingLabs.example2()
     }
 }
