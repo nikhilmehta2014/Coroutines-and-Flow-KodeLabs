@@ -31,12 +31,18 @@ class MainActivity : AppCompatActivity() {
         runBlockingLabs.example1()
         runBlockingLabs.example2()
 
-        val coroutineJobs = CoroutineJobs()
+//        val coroutineJobs = CoroutineJobs()
 //        coroutineJobs.example1()
 //        coroutineJobs.example2()
 //        coroutineJobs.example3()
 //        coroutineJobs.example4()
-        coroutineJobs.example5()
+//        coroutineJobs.example5()
+
+        val asyncAwait = AsyncAwait()
+//        asyncAwait.example1()
+//        asyncAwait.example2()
+        asyncAwait.example3()
+
 
     }
 }
