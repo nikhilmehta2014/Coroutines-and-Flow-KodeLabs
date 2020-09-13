@@ -15,23 +15,23 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val globalScopeLabs = GlobalScopeLabs()
-        globalScopeLabs.example1()
-        globalScopeLabs.example2()
+//        globalScopeLabs.example1()
+//        globalScopeLabs.example2()
 
         val delaySuspendLabs = DelaySuspendLabs()
-        delaySuspendLabs.example1()
-        delaySuspendLabs.example2()
-        delaySuspendLabs.example3()
+//        delaySuspendLabs.example1()
+//        delaySuspendLabs.example2()
+//        delaySuspendLabs.example3()
 
         val coroutineContextLabs = CoroutineContextLabs()
-        coroutineContextLabs.example1()
-        coroutineContextLabs.example2()
+//        coroutineContextLabs.example1()
+//        coroutineContextLabs.example2()
 
         val runBlockingLabs = RunBlockingLabs()
-        runBlockingLabs.example1()
-        runBlockingLabs.example2()
+//        runBlockingLabs.example1()
+//        runBlockingLabs.example2()
 
-//        val coroutineJobs = CoroutineJobs()
+        val coroutineJobs = CoroutineJobs()
 //        coroutineJobs.example1()
 //        coroutineJobs.example2()
 //        coroutineJobs.example3()
@@ -41,8 +41,7 @@ class MainActivity : AppCompatActivity() {
         val asyncAwait = AsyncAwait()
 //        asyncAwait.example1()
 //        asyncAwait.example2()
-        asyncAwait.example3()
-
+//        asyncAwait.example3()
 
     }
 }
