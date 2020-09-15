@@ -3,7 +3,7 @@ package com.nikhil.coroutinesandflowkodelabs
 import kotlinx.coroutines.*
 import timber.log.Timber
 
-class CoroutineJobs {
+class CoroutineJobsLabs {
 
     /**
      * We can wait for the Coroutine to finish using [Job.join]

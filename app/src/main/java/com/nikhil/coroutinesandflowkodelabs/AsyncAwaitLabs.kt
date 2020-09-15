@@ -4,7 +4,7 @@ import kotlinx.coroutines.*
 import timber.log.Timber
 import kotlin.system.measureTimeMillis
 
-class AsyncAwait {
+class AsyncAwaitLabs {
 
     /**
      * If we have several [suspend] functions inside a Coroutine, they are sequential by default, which means

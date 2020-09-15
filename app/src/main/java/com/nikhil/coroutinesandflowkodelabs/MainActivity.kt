@@ -2,11 +2,6 @@ package com.nikhil.coroutinesandflowkodelabs
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
-import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,14 +26,14 @@ class MainActivity : AppCompatActivity() {
 //        runBlockingLabs.example1()
 //        runBlockingLabs.example2()
 
-        val coroutineJobs = CoroutineJobs()
+        val coroutineJobs = CoroutineJobsLabs()
 //        coroutineJobs.example1()
 //        coroutineJobs.example2()
 //        coroutineJobs.example3()
 //        coroutineJobs.example4()
 //        coroutineJobs.example5()
 
-        val asyncAwait = AsyncAwait()
+        val asyncAwait = AsyncAwaitLabs()
 //        asyncAwait.example1()
 //        asyncAwait.example2()
 //        asyncAwait.example3()
