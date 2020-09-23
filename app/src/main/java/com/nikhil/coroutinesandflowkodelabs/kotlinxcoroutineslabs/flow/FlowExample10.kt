@@ -3,6 +3,9 @@ package com.nikhil.coroutinesandflowkodelabs.kotlinxcoroutineslabs.flow
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 
+/**
+ * [take]
+ */
 fun numbers(): Flow<Int> = flow {
     try {
         emit(1)

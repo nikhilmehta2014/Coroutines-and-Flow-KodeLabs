@@ -3,6 +3,9 @@ package com.nikhil.coroutinesandflowkodelabs.kotlinxcoroutineslabs.flow
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 
+/**
+ * [withTimeoutOrNull]
+ */
 private fun simple(): Flow<Int> = flow {
     for (i in 1..30) {
         delay(100)

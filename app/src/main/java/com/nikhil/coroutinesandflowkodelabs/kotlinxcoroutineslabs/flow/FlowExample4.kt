@@ -3,6 +3,9 @@ package com.nikhil.coroutinesandflowkodelabs.kotlinxcoroutineslabs.flow
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 
+/**
+ * [flow], [emit], [collect]
+ */
 private fun simple(): Flow<Int> = flow { // flow builder
     for (i in 1..3) {
         delay(100) // pretend we are doing something useful here
